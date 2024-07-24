@@ -1,7 +1,7 @@
 # Dockerfile
 
 # Use the official NestJS image as a base
-FROM node:14-alpine
+FROM node:18
 
 # Create and change to the app directory
 WORKDIR /usr/src/app
